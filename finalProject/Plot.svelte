@@ -12,7 +12,7 @@
 
   onMount(async () => {
     data = await csv(
-      "https://raw.githubusercontent.com/nguyencomputing/cs333_openDoorDataset/refs/heads/main/enrollmentData.csv"
+      "https://raw.githubusercontent.com/nguyencomputing/cs333_finalProject/refs/heads/main/enrollmentData.csv"
     );
   });
 
@@ -131,3 +131,4 @@
     {/if}
   </g>
 </svg>
+
